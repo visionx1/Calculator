@@ -40,7 +40,8 @@ root = tkinter.Tk()
 root.geometry('250x400+300+300')
 root.resizable(0,0)
 root.title('Calculator')
-root.iconbitmap(r'C:/Users/dell/Desktop/script/calc.ico')
+root.iconbitmap(r'calc.ico')
+
 
 operator = ""
 text_input = StringVar()
